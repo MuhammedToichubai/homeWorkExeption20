@@ -11,10 +11,7 @@ public class Main {
 //                main методдо try блоктун ичинде drive() деген методду чакырыныз,
 //                ал консольго "Машина журуп жатат" деп чыгаруусу керек
 //        Эскертуу: маселени чыгарууда try with resources колдонуу керек.
-        //try (Car car = new Car()) {
 
-        // public class Car extends AutoClosalbe
-//    }
         try (Car car = new Car()) {
         car.drive();
         } catch (Exception e) {

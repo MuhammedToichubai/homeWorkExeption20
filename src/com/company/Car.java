@@ -4,7 +4,7 @@ public class Car implements AutoCloseable {
 
 
     public void drive() {
-        System.out.println("Машина журуп жатат");
+        System.out.println("Машина журуп жатат.");
     }
 
     @Override
